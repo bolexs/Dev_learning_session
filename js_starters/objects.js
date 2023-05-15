@@ -1,6 +1,5 @@
 // object are collections of key/value pairs or properties.
 
-
 let person = {
     firstName: 'sam',
     lastName: 'folarin'
@@ -24,4 +23,3 @@ function People (peopleOne, peopleTwo) {
 
 Apersonq = new People('bolu', 'samuel');
 console.log(Apersonq.FullList());
-
