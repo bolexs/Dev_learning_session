@@ -11,3 +11,17 @@ person.greet = function () {
 }
 
 person.greet();
+
+function People (peopleOne, peopleTwo) {
+    this.peopleOne = peopleOne;
+    this.peopleTwo = peopleTwo;
+
+
+    this.FullList = function () {
+        return this.peopleOne + " " + this.peopleTwo;
+    }
+}
+
+Apersonq = new People('bolu', 'samuel');
+console.log(Apersonq.FullList());
+
