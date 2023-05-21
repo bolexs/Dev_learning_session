@@ -22,4 +22,11 @@ function People (peopleOne, peopleTwo) {
 }
 
 Apersonq = new People('bolu', 'samuel');
-console.log(Apersonq.FullList());
+//console.log(Apersonq.FullList());
+
+Object.defineProperty(person, 'lastName', {
+    value: 'bolu'
+} );
+
+console.log(person.lastName)
+
